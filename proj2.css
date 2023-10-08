@@ -12,13 +12,17 @@ body {
    background-color: #e4e7eb;
    font-weight: 300;
    padding: 40px;
-   /* padding-left: 32%; /* My answer to center things */
-   /* display: grid; /* Chatgpt answer to center things */
-   /* place-items: center; */
-   position: absolute; /* Another Chatgpt answer to center things */
+   padding-left: 33%; /* My answer to center the page */
+   padding-top: 10%;
+   
+   /* Chatgpt answer to center the page */
+   /* display: grid; 
+   place-items: center; */
+   /* Another Chatgpt answer */
+   /* position: absolute; 
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); */
 }
 header {
    margin-left: 20px;
@@ -86,10 +90,10 @@ h3{
    border-width: 1px;
    color: white;
    text-decoration: none;
-   padding-left: 5em;
-   padding-right: 5em;
-   padding-bottom: .5em;
-   padding-top: .5em;
+   padding-left: 7em;
+   padding-right: 7em;
+   padding-bottom: .7em;
+   padding-top: .7em;
    margin-bottom: 5px;
 }
 .column div a:hover {
@@ -124,10 +128,10 @@ h3{
    border-width: 1px;
    color: white;
    text-decoration: none;
-   padding-left: 5em;
-   padding-right: 5em;
-   padding-bottom: .5em;
-   padding-top: .5em;
+   padding-left: 7em;
+   padding-right: 7em;
+   padding-bottom: .7em;
+   padding-top: .7em;
    margin-bottom: 5px;
 }
 .column-featured div a:hover {
@@ -142,7 +146,8 @@ h3{
    padding-left: 20px;
    background-repeat: calc();
    color: white;
-   padding-top: 10px;
+   padding-top: 1em;
+   padding-bottom: 0em;
    font-size: 24px;
 }
 #confidence p {
@@ -153,9 +158,11 @@ h3{
    background-image: url(checkmark.svg);
    background-size: 24px;
    background-repeat: no-repeat;
+   background-position: 0%; /* 1st try guess wow lucky */
    padding-left: 30px;
    font-weight: 400;
    font-size: 18px;
+   padding-bottom: 0;
 }
 #confidence a {
    font-style: italic;
